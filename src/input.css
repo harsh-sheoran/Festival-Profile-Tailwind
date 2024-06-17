@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menulist.show{
+    right: 0px;
+}   
+
+.menuicon.show .bar:nth-child(1){
+    transform: translateY(6px) rotate(45deg);
+}
+.menuicon.show .bar:nth-child(2){
+    display: none;
+}
+.menuicon.show .bar:nth-child(3){
+    transform: translateY(-3px) rotate(-45deg);
+}
